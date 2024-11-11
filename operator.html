@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<body>
+    <h1> Bahas Operator</h1>
+    <p id="hitung1"></p>
+    <p id="hitung2"></p>
+    <p id="operator"></p>
+    <p id="operatorModulus"></p>
+
+<script>
+    // Deklarasi variabel
+    let a, b, c 
+    let x
+    a = 10;
+    b = 5;
+    c = a * b;
+
+    x = (a + b) * c;
+    let result = a > b;
+    let modulus = a % b;
+    let nilai = 10;
+    nilai++;
+    document.getElementById("hitung1").innerHTML = "Nilai yang tampil adalah " + c + ".";
+    document.getElementById("hitung2").innerHTML = "Nilai kedua yang tampil adalah " + x ;
+    document.getElementById("operator").innerHTML = "variabel A dengan angka 10 lebih besar dari B yaitu 5? " + result;
+    document.getElementById("operatorModulus").innerHTML = "nilai daro modulus ini adalah ? " + nilai;
+</script>
+</body>
+</html>

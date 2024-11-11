@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+</head>
+<body>
+    <h2>Apa sih JS</h2>
+    <p id="hello">JS adalah bahasa yang ingin di pelajari</p>
+    <p id="demoHitung"></p>
+    <p id="demoDecimal">ini contoh bentuk decimal</p>
+    <p id="demoString"> ini contoh string</p>
+    <button type="button" onclick='document.getElementById("hello").innerHTML = "Hallo JS aku tampil pertama kali nih di dunia"'> Click Me</button>
+    <button onclick="window.print()">Silahkan Print</button>
+
+<script>
+    document.getElementById("demoHitung").innerHTML = 10 * 10; // mengubah elemen html menjadi nilai yang di set oleh innerHTML
+    window.alert("opss ada info penting nih"); // menampilkan pesan dalam bentuk pop up
+    document.getElementById("demoDecimal").innerHTML = 10.5000;
+    document.getElementById("demoString").innerHTML = 'Ismi Azis';
+    //alert(5 + 6);
+    console.log(5+10); // menampilkan informasi melalui log / inspect element
+</script>
+</body>
+</html>
